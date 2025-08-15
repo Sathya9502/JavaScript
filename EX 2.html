@@ -5,10 +5,9 @@
 <h2>Hide & Show Example (One Button)</h2>
 
 <p id="para">You can hide and show me!</p>
-<button id="toggleBtn">Hide</button>
-
+<button id="btn1">Hide/Show</button>
 <script>
-document.getElementById("toggleBtn").addEventListener("click", function() {
+document.getElementById("btn1").addEventListener("click", function() {
     let para = document.getElementById("para");
     if (para.style.display === "none") {
         para.style.display = "block";
@@ -19,7 +18,6 @@ document.getElementById("toggleBtn").addEventListener("click", function() {
     }
 });
 </script>
-
 </body>
 </html>
 
